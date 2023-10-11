@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.naybar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.list-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-menu figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+header {
+    height: 450px;
+    background: url(precios.png) no-repeat center top;
+    background-size: cover;
+ 
+}
+
+.naybar {
+    height: 63px;
+    background: #212121;
+    border-bottom: 1px dashed #d6e199;
+
+}
+
+.naybar a {
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 20px ""; 
+}
